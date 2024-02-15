@@ -37,7 +37,7 @@ class _DemoButtonsState extends State<DemoButtons> {
           ),
         ],
       ),
-      if (_isUnderstood) const Text('Awesome!'),
+      if (_isUnderstood) const Text('Awesome! you Rock!'),
     ]);
   }
 }
