@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:toda_app/ui_updates_demo.dart';
+// import 'package:flutter_internals/ui_updates_demo.dart';
+import 'package:toda_app/keys/keys.dart';
 
 void main() {
   runApp(const App());
@@ -15,9 +16,12 @@ class App extends StatelessWidget {
       theme: ThemeData(useMaterial3: true),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Internals and keys'),
+          title: const Text(
+            'Flutter Internal App',
+            style: TextStyle(fontSize: 25),
+          ),
         ),
-        body: const UIUpdatesDemo(),
+        body: const Keys(),
       ),
     );
   }

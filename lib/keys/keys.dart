@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_internals/keys/checkable_todo_item.dart';
+import 'package:toda_app/keys/checkable_todo_item.dart';
 // import 'package:flutter_internals/keys/todo_item.dart';
 
 class Todo {
@@ -28,11 +28,11 @@ class _KeysState extends State<Keys> {
     ),
     const Todo(
       'Practice Flutter',
-      Priority.normal,
+      Priority.low,
     ),
     const Todo(
       'Explore other courses',
-      Priority.low,
+      Priority.normal,
     ),
   ];
 
